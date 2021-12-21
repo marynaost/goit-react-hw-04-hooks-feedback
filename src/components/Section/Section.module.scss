@@ -1,0 +1,12 @@
+section {
+  width: 350px;
+  padding: 5px;
+  text-align: center;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a16f4b;
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
